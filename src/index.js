@@ -8,9 +8,6 @@ function BookList() {
   return (
     <section className="booklist">
       <Book />
-      <Book />
-      <Book />
-      <Book />
     </section>
   );
 }
@@ -29,15 +26,8 @@ const Book = () => {
           I love you to the moon and back
         </a>
       </div>
-      <div>
-        <a
-          style={{
-            color: "#617d98",
-            fontSize: "0.75rem",
-            marginTop: "0.25rem",
-          }}
-          href="https://www.amazon.com/Amelia-Hepworth/e/B00O6HYL7G/ref=zg_bs_books_bl_22/137-1926089-6829434?pd_rd_i=1589255518"
-        >
+      <div className="book-author">
+        <a href="https://www.amazon.com/Amelia-Hepworth/e/B00O6HYL7G/ref=zg_bs_books_bl_22/137-1926089-6829434?pd_rd_i=1589255518">
           Amalia Hepworth
         </a>
       </div>
